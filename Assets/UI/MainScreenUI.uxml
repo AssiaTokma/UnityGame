@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Header.uss?fileID=7433441132597879392&amp;guid=394299c5af3f3b940948527d021cd0fe&amp;type=3#Header" />
+    <ui:VisualElement style="height: 100%; align-items: center; flex-direction: column; opacity: 1; display: flex; visibility: visible; overflow: visible; -unity-background-image-tint-color: rgb(56, 56, 56); background-color: rgb(19, 27, 45); justify-content: center; -unity-text-outline-width: 1px;">
+        <ui:Label text="Tower Defense" display-tooltip-when-elided="true" focusable="false" class="Header" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px;" />
+        <ui:Label text="Score: 0" display-tooltip-when-elided="true" focusable="false" name="ScoreLabel" class="Header" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px; height: 24px; font-size: 26px; -unity-font-style: normal; text-shadow: 1px 1px 1px rgb(10, 10, 10);" />
+        <ui:Button text="Play" display-tooltip-when-elided="true" enable-rich-text="true" name="ButtonPlay" class="Button" />
+        <ui:Button text="Exit" display-tooltip-when-elided="true" enable-rich-text="true" name="ButtonExit" class="Button" />
+    </ui:VisualElement>
+</ui:UXML>

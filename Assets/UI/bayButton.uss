@@ -1,0 +1,67 @@
+.bayButton {
+    align-items: stretch;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    width: 80px;
+    height: 80px;
+    background-image: url('project://database/Assets/UI/Imgs/gatling_img.png?fileID=2800000&guid=935f667cecf3d9a4b8a9fc5cfd0bdfab&type=3#gatling_img');
+    -unity-background-image-tint-color: rgb(188, 188, 188);
+    background-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    -unity-text-align: lower-center;
+    white-space: normal;
+    font-size: 9px;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=c391270512df8f544851dffb7bd8e51f&type=3#NotInter-Regular');
+    -unity-text-outline-width: 0;
+    color: rgb(207, 255, 160);
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    transition-property: scale;
+    transition-duration: 1s;
+}
+
+.Button {
+    height: 53px;
+    width: 239px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 36px;
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+    -unity-font-style: normal;
+    transform-origin: center;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.button_util {
+    background-image: url('project://database/Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover@2x.png?fileID=2800000&guid=9aa4348290784b2468144a97eb15d8d7&type=3#d_secondarytabclosehover@2x');
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(156, 66, 75, 255);
+}

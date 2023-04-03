@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/bayButton.uss?fileID=7433441132597879392&amp;guid=5a8e6af6c335a3a47944e9fffd76b31e&amp;type=3#bayButton" />
+    <ui:IMGUIContainer style="height: 100%; flex-direction: column; align-items: center; justify-content: space-between;">
+        <ui:GroupBox style="height: 83px; background-color: rgba(255, 255, 255, 0); width: 100%; flex-direction: row; justify-content: space-between;">
+            <ui:Label text="Coins:" display-tooltip-when-elided="true" name="Coins" style="width: 215px; -unity-text-align: middle-center; font-size: 29px; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-outline-width: 1px; text-shadow: 1px 1px 1px rgb(0, 0, 0);" />
+            <ui:Label text="Max wave: " display-tooltip-when-elided="true" name="WaveLabel" style="-unity-text-align: middle-center; width: 396px; -unity-font-style: bold; font-size: 36px; color: rgb(255, 255, 255); text-shadow: 1px 1px 1px rgb(0, 0, 0);" />
+            <ui:GroupBox style="width: 25%; flex-direction: row; flex-wrap: wrap; justify-content: flex-end;">
+                <ui:Button display-tooltip-when-elided="true" name="ButtonRestart" style="background-image: url(&apos;project://database/Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_refresh@2x.png?fileID=2800000&amp;guid=602b72d4617c3694aa94419fc1b68e04&amp;type=3#d_refresh@2x&apos;); height: 50px; width: 50px; background-color: rgb(60, 82, 173); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;" />
+                <ui:Button display-tooltip-when-elided="true" name="ButtonMenu" class="button_util" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox style="width: 100%; height: 70%; display: flex; visibility: visible; align-items: center; justify-content: center;">
+            <ui:VisualElement name="DefeatMenu" style="height: 489px; width: 361px; align-items: center; justify-content: center; background-color: rgb(19, 27, 45); border-left-width: 13px; border-right-width: 13px; border-top-width: 13px; border-bottom-width: 13px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; display: flex; visibility: hidden;">
+                <ui:Label text="Base Destroyed!" display-tooltip-when-elided="true" style="height: 78px; width: 291px; -unity-text-align: middle-center; -unity-font-style: bold; font-size: 36px; color: rgb(255, 255, 255); -unity-text-outline-width: 0; -unity-text-outline-color: rgb(255, 255, 42);" />
+                <ui:Button text="Restart" display-tooltip-when-elided="true" name="ButtonRestart" class="Button" style="color: rgb(255, 255, 255);" />
+                <ui:Button text="Back to menu" display-tooltip-when-elided="true" name="ButtonMenu" class="Button" style="color: rgb(255, 255, 255);" />
+                <ui:Button text="Exit" display-tooltip-when-elided="true" name="ButtonExit" class="Button" style="color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+        </ui:GroupBox>
+        <ui:GroupBox style="height: 100px; background-color: rgba(255, 255, 255, 0); width: 100%; flex-direction: row; justify-content: flex-start;">
+            <ui:Button text="Multicannon Turret" display-tooltip-when-elided="true" name="gatling_turret" class="bayButton" style="border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;">
+                <ui:Label text="Cost: 200" display-tooltip-when-elided="true" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            </ui:Button>
+            <ui:Button text="Cannon Turret" display-tooltip-when-elided="true" name="cannon_turret" class="bayButton" style="background-image: url(&apos;project://database/Assets/UI/Imgs/cannon_img.png?fileID=2800000&amp;guid=8293b4583a280bc4baa3374c72adb8d1&amp;type=3#cannon_img&apos;); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;">
+                <ui:Label text="Cost: 400" display-tooltip-when-elided="true" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            </ui:Button>
+            <ui:Button text="Railgun Turret" display-tooltip-when-elided="true" name="railgun_turret" class="bayButton" style="background-image: url(&apos;project://database/Assets/UI/Imgs/railgun_img.png?fileID=2800000&amp;guid=cffbc80c717e3244db26bd60cdefa815&amp;type=3#railgun_img&apos;); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;">
+                <ui:Label text="Cost: 1000" display-tooltip-when-elided="true" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            </ui:Button>
+        </ui:GroupBox>
+    </ui:IMGUIContainer>
+</ui:UXML>
