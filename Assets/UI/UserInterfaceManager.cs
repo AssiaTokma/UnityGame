@@ -41,8 +41,13 @@ public class UserInterfaceManager : MonoBehaviour
         {
             if (asset.name == name)
             {
-                if (!GameObject.FindGameObjectWithTag("Blueprint"))
+                GameObject blueprint = GameObject.FindGameObjectWithTag("Blueprint");
+                if (!blueprint)
                 {
+                    Instantiate(asset);
+                } else
+                {
+                    Destroy(blueprint);
                     Instantiate(asset);
                 }
                 break;
